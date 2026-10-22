@@ -11,7 +11,7 @@ def getDayOfTheWeekForUserDate():
     input_day = int(input("Enter a day: "))
     input_year = int(input("Enter a year: "))
     
-    user_input_date = dow.getDayOfWeek(input_month, input_day, input_year)
+    user_input_date = dow.getDayOfWeek(input_day, input_month, input_year)
     print(f"{input_month}-{input_day}-{input_year} is a {user_input_date}")
 
 

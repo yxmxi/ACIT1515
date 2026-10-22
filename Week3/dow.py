@@ -77,7 +77,7 @@ def makeCalendar():
     for month in range(1, 13):
         total_days = days_in_month[month]
         if month == 2 and isLeapYear(year):
-            total_days + 1
+            total_days += 1
         
         for day in range(1, total_days + 1):
             weekday = getDayOfWeek(day, month, year)
